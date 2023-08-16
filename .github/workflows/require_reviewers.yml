@@ -11,3 +11,6 @@ jobs:
     steps:
       - name: Request review based on files changes and/or groups the author belongs to
         uses: BrianCArnold/RequireUserApproval@debug28
+        with:
+          token: ${{ secrets.TESTING_SECRET }}
+          config: .github/require_reviewers.yml
