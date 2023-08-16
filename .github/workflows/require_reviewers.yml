@@ -15,4 +15,3 @@ jobs:
         uses: briancarnold/requireuserapproval@debug28
         with:
           token: ${{ secrets.TESTING_SECRET }}
-          config: .github/require_reviewers.yml
