@@ -12,6 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Request review based on files changes and/or groups the author belongs to
-        uses: briancarnold/requireuserapproval@debug28
+        uses: briancarnold/requireuserapproval@debug27
         with:
           token: ${{ secrets.TESTING_SECRET }}
