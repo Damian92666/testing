@@ -1,7 +1,5 @@
 name: Require User Approval
 
-permissions: write-all
-
 on:
   pull_request_review:
     types: [editted, submitted]
