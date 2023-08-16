@@ -1,0 +1,6 @@
+groups:
+  # The default reviewers
+  review-group-all: # This group requires all 4 users to approve a PR.
+    members:
+      - Damian92666
+    required: 1
